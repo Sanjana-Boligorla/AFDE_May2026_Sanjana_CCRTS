@@ -10,15 +10,20 @@ import ForgotPassword from './pages/auth/ForgotPassword'
 import ResetPassword  from './pages/auth/ResetPassword'
 
 // App pages
-import Dashboard from './pages/dashboard/Dashboard'
-import NotFound  from './pages/NotFound'
+import Dashboard       from './pages/dashboard/Dashboard'
+import ComplaintsList  from './pages/complaints/ComplaintsList'
+import ComplaintDetail from './pages/complaints/ComplaintDetail'
+import CreateComplaint from './pages/complaints/CreateComplaint'
+import UserManagement  from './pages/users/UserManagement'
+import Categories      from './pages/categories/Categories'
+import NotFound        from './pages/NotFound'
 
 export default function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
         <Routes>
-          {/* Public routes (redirect if already logged in) */}
+          {/* Public only routes */}
           <Route element={<PublicRoute />}>
             <Route path="/login"           element={<Login />} />
             <Route path="/register"        element={<Register />} />
@@ -26,37 +31,47 @@ export default function App() {
             <Route path="/reset-password"  element={<ResetPassword />} />
           </Route>
 
-          {/* Protected routes */}
-          <Route element={<ProtectedRoute allowedRoles={['Admin', 'Supervisor']} />}>
+          {/* Admin + Supervisor */}
+          <Route element={<ProtectedRoute allowedRoles={['Admin','Supervisor']} />}>
             <Route element={<AppLayout />}>
-              <Route path="/dashboard"  element={<Dashboard />} />
-              <Route path="/users"      element={<div className="card p-6 text-gray-400 text-sm text-center">User Management — Milestone 2</div>} />
-              <Route path="/categories" element={<div className="card p-6 text-gray-400 text-sm text-center">Categories — Milestone 2</div>} />
-              <Route path="/reports"    element={<div className="card p-6 text-gray-400 text-sm text-center">Reports — Milestone 3</div>} />
-              <Route path="/escalations"element={<div className="card p-6 text-gray-400 text-sm text-center">Escalations — Milestone 3</div>} />
+              <Route path="/dashboard"   element={<Dashboard />} />
+              <Route path="/reports"     element={<div className="card p-6 text-gray-400 text-sm text-center">Reports — Milestone 3</div>} />
+              <Route path="/escalations" element={<div className="card p-6 text-gray-400 text-sm text-center">Escalations — Milestone 3</div>} />
             </Route>
           </Route>
 
-          <Route element={<ProtectedRoute allowedRoles={['Admin', 'Supervisor', 'Agent']} />}>
+          {/* Admin only */}
+          <Route element={<ProtectedRoute allowedRoles={['Admin']} />}>
             <Route element={<AppLayout />}>
-              <Route path="/complaints" element={<div className="card p-6 text-gray-400 text-sm text-center">Complaint Management — Milestone 2</div>} />
+              <Route path="/users"      element={<UserManagement />} />
+              <Route path="/categories" element={<Categories />} />
             </Route>
           </Route>
 
+          {/* Admin + Supervisor + Agent */}
+          <Route element={<ProtectedRoute allowedRoles={['Admin','Supervisor','Agent']} />}>
+            <Route element={<AppLayout />}>
+              <Route path="/complaints"     element={<ComplaintsList />} />
+              <Route path="/complaints/:id" element={<ComplaintDetail />} />
+            </Route>
+          </Route>
+
+          {/* Customer */}
           <Route element={<ProtectedRoute allowedRoles={['Customer']} />}>
             <Route element={<AppLayout />}>
-              <Route path="/my-complaints" element={<div className="card p-6 text-gray-400 text-sm text-center">My Complaints — Milestone 2</div>} />
-              <Route path="/new-complaint" element={<div className="card p-6 text-gray-400 text-sm text-center">New Complaint — Milestone 2</div>} />
+              <Route path="/my-complaints"     element={<ComplaintsList />} />
+              <Route path="/my-complaints/:id" element={<ComplaintDetail />} />
+              <Route path="/new-complaint"     element={<CreateComplaint />} />
             </Route>
           </Route>
 
+          {/* Shared */}
           <Route element={<ProtectedRoute />}>
             <Route element={<AppLayout />}>
-              <Route path="/profile" element={<div className="card p-6 text-gray-400 text-sm text-center">Profile — Milestone 2</div>} />
+              <Route path="/profile" element={<div className="card p-6 text-gray-400 text-sm text-center">Profile — Coming soon</div>} />
             </Route>
           </Route>
 
-          {/* Redirects */}
           <Route path="/" element={<Navigate to="/login" replace />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
