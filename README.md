@@ -122,7 +122,7 @@ Frontend runs at: `http://localhost:5173`
 |-----------|-------|--------|
 | **1** | Project scaffold, MySQL schema, Auth APIs, Login/Register UI | ✅ Complete |
 | **2** | Complaint CRUD, workflow, assignment, history, file uploads | 🔄 Next |
-| **3** | Dashboard analytics, SLA tracking, escalation, notifications, feedback | 🔜 Planned |
+| **3** | Dashboard analytics, SLA tracking, notifications, reports, profile | ✅ Complete |
 
 ## Screenshots
 
