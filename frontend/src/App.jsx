@@ -16,6 +16,8 @@ import ComplaintDetail from './pages/complaints/ComplaintDetail'
 import CreateComplaint from './pages/complaints/CreateComplaint'
 import UserManagement  from './pages/users/UserManagement'
 import Categories      from './pages/categories/Categories'
+import Reports         from './pages/reports/Reports'
+import Profile         from './pages/profile/Profile'
 import NotFound        from './pages/NotFound'
 
 export default function App() {
@@ -35,8 +37,8 @@ export default function App() {
           <Route element={<ProtectedRoute allowedRoles={['Admin','Supervisor']} />}>
             <Route element={<AppLayout />}>
               <Route path="/dashboard"   element={<Dashboard />} />
-              <Route path="/reports"     element={<div className="card p-6 text-gray-400 text-sm text-center">Reports — Milestone 3</div>} />
-              <Route path="/escalations" element={<div className="card p-6 text-gray-400 text-sm text-center">Escalations — Milestone 3</div>} />
+              <Route path="/reports"     element={<Reports />} />
+              <Route path="/escalations" element={<Reports />} />
             </Route>
           </Route>
 
@@ -68,7 +70,7 @@ export default function App() {
           {/* Shared */}
           <Route element={<ProtectedRoute />}>
             <Route element={<AppLayout />}>
-              <Route path="/profile" element={<div className="card p-6 text-gray-400 text-sm text-center">Profile — Coming soon</div>} />
+              <Route path="/profile" element={<Profile />} />
             </Route>
           </Route>
 
