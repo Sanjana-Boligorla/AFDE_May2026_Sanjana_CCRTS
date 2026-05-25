@@ -193,12 +193,38 @@ python etl_pipeline.py --file ../datasets/my_custom.csv
 | Milestone | Scope | Status |
 |-----------|-------|--------|
 | **1** | CSV dataset (250 records), analytics DB tables, Python ETL pipeline | ✅ Complete |
-| **2** | Backend analytics APIs (SLA reports, category, agent, trends) | 🔄 Next |
-| **3** | Frontend analytics dashboard powered by ETL data | ⏳ Pending |
+| **2** | Backend analytics APIs (SLA reports, category, agent, trends) | ✅ Complete |
+| **3** | Frontend analytics dashboard + ETL pipeline UI | ✅ Complete |
 
 ## Screenshots
 
-*(To be added after each milestone)*
+### Phase 1 — Core Application
+
+| Login | Dashboard |
+|-------|-----------|
+| ![Login](screenshots/01-login.png) | ![Dashboard](screenshots/02-dashboard.png) |
+
+| Complaints List | User Management |
+|----------------|----------------|
+| ![Complaints](screenshots/03-complaints-list.png) | ![Users](screenshots/05-users.png) |
+
+| Categories | Profile |
+|-----------|---------|
+| ![Categories](screenshots/06-categories.png) | ![Profile](screenshots/12-profile.png) |
+
+### Phase 2 — Analytics & ETL
+
+| Reports — Monthly Trends | Reports — SLA Report |
+|--------------------------|----------------------|
+| ![Monthly Trends](screenshots/07-reports-monthly.png) | ![SLA Report](screenshots/08-reports-sla.png) |
+
+| Reports — Categories | Reports — Agent Performance |
+|----------------------|-----------------------------|
+| ![Categories](screenshots/09-reports-categories.png) | ![Agent Performance](screenshots/10-reports-agents.png) |
+
+| ETL Pipeline |
+|-------------|
+| ![ETL Pipeline](screenshots/11-etl-pipeline.png) |
 
 ## Author
 
