@@ -1,0 +1,251 @@
+complaint_number,title,category,priority,status,customer,assigned_agent,created_at,sla_due_at,resolved_at,closed_at,resolution_hours,sla_breached,satisfaction_rating
+CMP-2025-0001,Intermittent connectivity issue,Service Disruption,Low,Closed,Customer_018,Bob Martinez,2025-01-05 09:00:00,2025-01-08 09:00:00,2025-01-05 21:00:00,2025-01-07 22:00:00,12,0,1
+CMP-2025-0002,Two-factor auth failing,Technical Problems,Low,Closed,Customer_039,Alice Johnson,2025-01-20 18:00:00,2025-01-23 18:00:00,2025-01-23 04:00:00,2025-01-25 05:00:00,58,0,5
+CMP-2025-0003,Manufacturing defect found,Product Defects,High,Assigned,Customer_022,Clara Singh,2025-01-25 13:00:00,2025-01-26 13:00:00,,,,1,
+CMP-2024-0004,Chat support unresponsive,Customer Service,Low,Resolved,Customer_023,Emma Wilson,2024-12-12 15:00:00,2024-12-15 15:00:00,2024-12-14 16:00:00,,49,0,
+CMP-2025-0005,Lost in transit,Delivery Delays,High,Open,Customer_040,,2025-01-19 09:00:00,2025-01-20 09:00:00,,,,1,
+CMP-2025-0006,Cannot login to portal,Technical Problems,High,Resolved,Customer_006,Bob Martinez,2025-03-08 12:00:00,2025-03-09 12:00:00,2025-03-08 18:00:00,,6,0,3
+CMP-2025-0007,Return pickup not scheduled,Delivery Delays,High,Closed,Customer_005,Emma Wilson,2025-01-13 16:00:00,2025-01-14 16:00:00,2025-01-15 18:00:00,2025-01-16 23:00:00,50,1,5
+CMP-2025-0008,Cannot login to portal,Technical Problems,High,In Progress,Customer_004,Bob Martinez,2025-02-19 14:00:00,2025-02-20 14:00:00,,,,1,
+CMP-2025-0009,App crashes on startup,Technical Problems,Critical,Resolved,Customer_037,Clara Singh,2025-05-17 15:00:00,2025-05-17 23:00:00,2025-05-17 19:00:00,,4,0,
+CMP-2025-0010,Missing accessories in box,Product Defects,Low,Closed,Customer_036,Emma Wilson,2025-04-29 14:00:00,2025-05-02 14:00:00,2025-04-30 19:00:00,2025-05-01 15:00:00,29,0,3
+CMP-2025-0011,Tax calculation incorrect,Billing Issues,High,Open,Customer_010,,2025-03-19 17:00:00,2025-03-20 17:00:00,,,,1,
+CMP-2025-0012,Chat support unresponsive,Customer Service,Medium,Closed,Customer_030,Emma Wilson,2025-04-21 08:00:00,2025-04-23 08:00:00,2025-04-24 20:00:00,2025-04-27 08:00:00,84,1,5
+CMP-2025-0013,Complete service outage,Service Disruption,Medium,Closed,Customer_011,David Lee,2025-02-06 16:00:00,2025-02-08 16:00:00,2025-02-06 23:00:00,2025-02-09 18:00:00,7,0,5
+CMP-2024-0014,Two-factor auth failing,Technical Problems,Low,Escalated,Customer_011,Emma Wilson,2024-12-01 17:00:00,2024-12-04 17:00:00,,,,1,
+CMP-2024-0015,Double charged on account,Billing Issues,Low,Closed,Customer_024,Clara Singh,2024-12-15 11:00:00,2024-12-18 11:00:00,2024-12-15 22:00:00,2024-12-18 08:00:00,11,0,2
+CMP-2025-0016,Manufacturing defect found,Product Defects,Low,Closed,Customer_031,Emma Wilson,2025-02-06 16:00:00,2025-02-09 16:00:00,2025-02-07 20:00:00,2025-02-10 19:00:00,28,0,5
+CMP-2025-0017,Password reset not working,Technical Problems,High,Assigned,Customer_026,Clara Singh,2025-04-12 15:00:00,2025-04-13 15:00:00,,,,1,
+CMP-2025-0018,Two-factor auth failing,Technical Problems,Low,In Progress,Customer_002,Emma Wilson,2025-01-28 17:00:00,2025-01-31 17:00:00,,,,1,
+CMP-2024-0019,Complete service outage,Service Disruption,High,Open,Customer_004,,2024-12-09 13:00:00,2024-12-10 13:00:00,,,,1,
+CMP-2025-0020,Two-factor auth failing,Technical Problems,Medium,Resolved,Customer_032,Bob Martinez,2025-01-03 17:00:00,2025-01-05 17:00:00,2025-01-05 00:00:00,,31,0,3
+CMP-2025-0021,Partial service degradation,Service Disruption,High,Closed,Customer_023,David Lee,2025-03-30 08:00:00,2025-03-31 08:00:00,2025-03-30 12:00:00,2025-03-31 03:00:00,4,0,4
+CMP-2025-0022,Partial service degradation,Service Disruption,Low,In Progress,Customer_013,Emma Wilson,2025-01-05 14:00:00,2025-01-08 14:00:00,,,,1,
+CMP-2024-0023,Refund amount incorrect,Refund Requests,Low,Closed,Customer_005,David Lee,2024-12-26 08:00:00,2024-12-29 08:00:00,2024-12-26 10:00:00,2024-12-27 03:00:00,2,0,5
+CMP-2024-0024,Product not matching description,Product Defects,Medium,Resolved,Customer_031,Bob Martinez,2024-12-16 10:00:00,2024-12-18 10:00:00,2024-12-17 03:00:00,,17,0,5
+CMP-2025-0025,Shipment tracking not updating,Delivery Delays,Medium,In Progress,Customer_036,David Lee,2025-01-18 12:00:00,2025-01-20 12:00:00,,,,1,
+CMP-2025-0026,Tax calculation incorrect,Billing Issues,Medium,Open,Customer_035,,2025-02-19 08:00:00,2025-02-21 08:00:00,,,,1,
+CMP-2025-0027,Refund not processed after 30 days,Refund Requests,Medium,Closed,Customer_034,Bob Martinez,2025-04-10 09:00:00,2025-04-12 09:00:00,2025-04-12 15:00:00,2025-04-14 22:00:00,54,1,4
+CMP-2025-0028,Cannot login to portal,Technical Problems,Medium,Resolved,Customer_003,Emma Wilson,2025-03-18 18:00:00,2025-03-20 18:00:00,2025-03-19 11:00:00,,17,0,
+CMP-2025-0029,Subscription not activating,Account Issues,Low,Resolved,Customer_026,Bob Martinez,2025-05-15 12:00:00,2025-05-18 12:00:00,2025-05-15 22:00:00,,10,0,
+CMP-2025-0030,Slow service speeds,Service Disruption,Low,Closed,Customer_014,Emma Wilson,2025-01-03 13:00:00,2025-01-06 13:00:00,2025-01-05 13:00:00,2025-01-06 19:00:00,48,0,
+CMP-2025-0031,Return pickup not scheduled,Delivery Delays,High,Closed,Customer_034,Alice Johnson,2025-04-21 12:00:00,2025-04-22 12:00:00,2025-04-22 22:00:00,2025-04-24 02:00:00,34,1,
+CMP-2025-0032,Slow service speeds,Service Disruption,High,Closed,Customer_010,Clara Singh,2025-05-04 11:00:00,2025-05-05 11:00:00,2025-05-05 08:00:00,2025-05-08 02:00:00,21,0,4
+CMP-2024-0033,Incorrect invoice amount,Billing Issues,Low,Closed,Customer_028,Clara Singh,2024-12-01 13:00:00,2024-12-04 13:00:00,2024-12-02 23:00:00,2024-12-03 21:00:00,34,0,4
+CMP-2025-0034,Escalation not followed up,Customer Service,Medium,Open,Customer_008,,2025-01-08 16:00:00,2025-01-10 16:00:00,,,,1,
+CMP-2024-0035,Unable to update profile,Account Issues,Medium,Resolved,Customer_010,David Lee,2024-12-11 12:00:00,2024-12-13 12:00:00,2024-12-11 15:00:00,,3,0,3
+CMP-2025-0036,Password reset not working,Technical Problems,High,Closed,Customer_023,Emma Wilson,2025-05-08 10:00:00,2025-05-09 10:00:00,2025-05-08 16:00:00,2025-05-11 07:00:00,6,0,5
+CMP-2025-0037,Tax calculation incorrect,Billing Issues,Low,Assigned,Customer_022,David Lee,2025-02-02 12:00:00,2025-02-05 12:00:00,,,,1,
+CMP-2025-0038,Intermittent connectivity issue,Service Disruption,Medium,Escalated,Customer_003,David Lee,2025-01-21 15:00:00,2025-01-23 15:00:00,,,,1,
+CMP-2025-0039,API returning errors,Technical Problems,Low,Closed,Customer_013,David Lee,2025-02-10 09:00:00,2025-02-13 09:00:00,2025-02-12 13:00:00,2025-02-14 20:00:00,52,0,4
+CMP-2025-0040,Billing cycle error,Billing Issues,Low,Assigned,Customer_017,Bob Martinez,2025-02-06 08:00:00,2025-02-09 08:00:00,,,,1,
+CMP-2025-0041,Misinformation from agent,Customer Service,Medium,Resolved,Customer_021,David Lee,2025-04-10 09:00:00,2025-04-12 09:00:00,2025-04-11 02:00:00,,17,0,
+CMP-2025-0042,Chat support unresponsive,Customer Service,Low,Closed,Customer_035,Bob Martinez,2025-03-21 09:00:00,2025-03-24 09:00:00,2025-03-23 02:00:00,2025-03-25 08:00:00,41,0,5
+CMP-2025-0043,Partial delivery received,Delivery Delays,Medium,Assigned,Customer_027,Clara Singh,2025-02-14 16:00:00,2025-02-16 16:00:00,,,,1,
+CMP-2025-0044,Misinformation from agent,Customer Service,High,Resolved,Customer_025,Bob Martinez,2025-04-25 12:00:00,2025-04-26 12:00:00,2025-04-25 22:00:00,,10,0,4
+CMP-2025-0045,Account merge issue,Account Issues,Medium,Closed,Customer_029,Bob Martinez,2025-04-01 10:00:00,2025-04-03 10:00:00,2025-04-03 05:00:00,2025-04-05 09:00:00,43,0,3
+CMP-2024-0046,App crashes on startup,Technical Problems,High,In Progress,Customer_015,Bob Martinez,2024-12-07 08:00:00,2024-12-08 08:00:00,,,,1,
+CMP-2025-0047,Credit not applied to account,Refund Requests,High,In Progress,Customer_005,David Lee,2025-05-11 17:00:00,2025-05-12 17:00:00,,,,1,
+CMP-2024-0048,Escalation not followed up,Customer Service,Medium,Closed,Customer_016,Bob Martinez,2024-12-02 09:00:00,2024-12-04 09:00:00,2024-12-03 19:00:00,2024-12-05 12:00:00,34,0,
+CMP-2025-0049,App crashes on startup,Technical Problems,Critical,Resolved,Customer_008,David Lee,2025-03-29 18:00:00,2025-03-30 02:00:00,2025-03-29 21:00:00,,3,0,5
+CMP-2025-0050,Long hold times on call,Customer Service,High,In Progress,Customer_036,David Lee,2025-04-01 15:00:00,2025-04-02 15:00:00,,,,1,
+CMP-2025-0051,Password reset not working,Technical Problems,High,In Progress,Customer_018,Emma Wilson,2025-05-10 11:00:00,2025-05-11 11:00:00,,,,1,
+CMP-2025-0052,Slow service speeds,Service Disruption,High,Assigned,Customer_016,Clara Singh,2025-02-20 16:00:00,2025-02-21 16:00:00,,,,1,
+CMP-2025-0053,Product arrived damaged,Product Defects,Low,Escalated,Customer_010,Bob Martinez,2025-03-17 14:00:00,2025-03-20 14:00:00,,,,1,
+CMP-2025-0054,Credit not applied to account,Refund Requests,Medium,Closed,Customer_014,David Lee,2025-04-29 08:00:00,2025-05-01 08:00:00,2025-04-30 09:00:00,2025-05-02 03:00:00,25,0,
+CMP-2025-0055,Account merge issue,Account Issues,Medium,Closed,Customer_025,David Lee,2025-04-19 17:00:00,2025-04-21 17:00:00,2025-04-20 11:00:00,2025-04-22 02:00:00,18,0,4
+CMP-2025-0056,Misinformation from agent,Customer Service,High,Closed,Customer_030,Bob Martinez,2025-04-16 08:00:00,2025-04-17 08:00:00,2025-04-16 09:00:00,2025-04-17 02:00:00,1,0,3
+CMP-2025-0057,Refund rejected unfairly,Refund Requests,Low,Escalated,Customer_017,David Lee,2025-01-24 15:00:00,2025-01-27 15:00:00,,,,1,
+CMP-2025-0058,Rude support agent,Customer Service,Medium,Closed,Customer_027,Clara Singh,2025-03-31 08:00:00,2025-04-02 08:00:00,2025-04-03 08:00:00,2025-04-04 10:00:00,72,1,5
+CMP-2025-0059,Incorrect invoice amount,Billing Issues,High,In Progress,Customer_016,Bob Martinez,2025-05-09 10:00:00,2025-05-10 10:00:00,,,,1,
+CMP-2025-0060,Credit not applied to account,Refund Requests,High,In Progress,Customer_037,Bob Martinez,2025-02-04 13:00:00,2025-02-05 13:00:00,,,,1,
+CMP-2025-0061,Complete service outage,Service Disruption,High,Closed,Customer_011,Clara Singh,2025-04-28 08:00:00,2025-04-29 08:00:00,2025-04-28 21:00:00,2025-04-30 10:00:00,13,0,3
+CMP-2025-0062,Cannot login to portal,Technical Problems,Low,Escalated,Customer_020,Emma Wilson,2025-04-24 08:00:00,2025-04-27 08:00:00,,,,1,
+CMP-2025-0063,Escalation not followed up,Customer Service,High,Closed,Customer_005,Emma Wilson,2025-02-26 08:00:00,2025-02-27 08:00:00,2025-02-26 12:00:00,2025-02-28 03:00:00,4,0,5
+CMP-2025-0064,Cashback not credited,Refund Requests,High,In Progress,Customer_028,Bob Martinez,2025-04-13 18:00:00,2025-04-14 18:00:00,,,,1,
+CMP-2025-0065,Refund rejected unfairly,Refund Requests,Medium,In Progress,Customer_038,Clara Singh,2025-02-01 09:00:00,2025-02-03 09:00:00,,,,1,
+CMP-2025-0066,Refund amount incorrect,Refund Requests,Low,Open,Customer_030,,2025-03-08 13:00:00,2025-03-11 13:00:00,,,,1,
+CMP-2025-0067,Unauthorized account access,Account Issues,Low,Closed,Customer_014,Clara Singh,2025-02-26 12:00:00,2025-03-01 12:00:00,2025-02-28 00:00:00,2025-03-01 23:00:00,36,0,
+CMP-2025-0068,Two-factor auth failing,Technical Problems,Low,Resolved,Customer_027,David Lee,2025-01-31 15:00:00,2025-02-03 15:00:00,2025-01-31 18:00:00,,3,0,
+CMP-2025-0069,Dashboard not loading,Technical Problems,Medium,Resolved,Customer_016,Clara Singh,2025-04-28 13:00:00,2025-04-30 13:00:00,2025-04-29 17:00:00,,28,0,4
+CMP-2025-0070,Unauthorized account access,Account Issues,High,Closed,Customer_018,Clara Singh,2025-01-29 09:00:00,2025-01-30 09:00:00,2025-01-30 03:00:00,2025-02-02 03:00:00,18,0,3
+CMP-2025-0071,Two-factor auth failing,Technical Problems,High,Closed,Customer_018,Emma Wilson,2025-05-02 12:00:00,2025-05-03 12:00:00,2025-05-02 22:00:00,2025-05-04 00:00:00,10,0,4
+CMP-2025-0072,Missing accessories in box,Product Defects,Medium,Closed,Customer_004,Emma Wilson,2025-01-02 18:00:00,2025-01-04 18:00:00,2025-01-02 19:00:00,2025-01-04 19:00:00,1,0,4
+CMP-2024-0073,Email change not working,Account Issues,Low,Resolved,Customer_004,Clara Singh,2024-12-30 09:00:00,2025-01-02 09:00:00,2025-01-04 03:00:00,,114,1,3
+CMP-2025-0074,Lost in transit,Delivery Delays,Low,Resolved,Customer_016,Alice Johnson,2025-03-17 17:00:00,2025-03-20 17:00:00,2025-03-19 18:00:00,,49,0,4
+CMP-2024-0075,Misinformation from agent,Customer Service,Medium,Resolved,Customer_040,Alice Johnson,2024-12-26 11:00:00,2024-12-28 11:00:00,2024-12-26 17:00:00,,6,0,
+CMP-2025-0076,Product not matching description,Product Defects,Medium,Resolved,Customer_011,Alice Johnson,2025-03-26 17:00:00,2025-03-28 17:00:00,2025-03-29 13:00:00,,68,1,5
+CMP-2025-0077,Cashback not credited,Refund Requests,Low,Closed,Customer_015,Clara Singh,2025-04-30 18:00:00,2025-05-03 18:00:00,2025-05-01 09:00:00,2025-05-03 07:00:00,15,0,
+CMP-2025-0078,Product arrived damaged,Product Defects,Critical,Resolved,Customer_010,Alice Johnson,2025-01-12 12:00:00,2025-01-12 20:00:00,2025-01-12 15:00:00,,3,0,4
+CMP-2025-0079,Lost in transit,Delivery Delays,High,Assigned,Customer_018,Emma Wilson,2025-04-06 15:00:00,2025-04-07 15:00:00,,,,1,
+CMP-2024-0080,Subscription overcharged,Billing Issues,Critical,In Progress,Customer_021,Emma Wilson,2024-12-07 09:00:00,2024-12-07 17:00:00,,,,1,
+CMP-2025-0081,Incorrect invoice amount,Billing Issues,Critical,Resolved,Customer_018,Emma Wilson,2025-01-14 15:00:00,2025-01-14 23:00:00,2025-01-14 18:00:00,,3,0,
+CMP-2025-0082,Complaint ignored repeatedly,Customer Service,High,Escalated,Customer_032,Alice Johnson,2025-02-28 14:00:00,2025-03-01 14:00:00,,,,1,
+CMP-2025-0083,Peak hour disruption,Service Disruption,High,Closed,Customer_022,David Lee,2025-04-06 12:00:00,2025-04-07 12:00:00,2025-04-07 06:00:00,2025-04-07 20:00:00,18,0,4
+CMP-2025-0084,Account locked unexpectedly,Account Issues,Low,Resolved,Customer_026,Emma Wilson,2025-05-18 16:00:00,2025-05-21 16:00:00,2025-05-23 03:00:00,,107,1,5
+CMP-2025-0085,Refund amount incorrect,Refund Requests,High,Resolved,Customer_014,Clara Singh,2025-01-03 12:00:00,2025-01-04 12:00:00,2025-01-03 16:00:00,,4,0,
+CMP-2025-0086,Cannot login to portal,Technical Problems,High,Assigned,Customer_020,Emma Wilson,2025-04-21 14:00:00,2025-04-22 14:00:00,,,,1,
+CMP-2025-0087,Partial service degradation,Service Disruption,Medium,Closed,Customer_008,Bob Martinez,2025-02-13 16:00:00,2025-02-15 16:00:00,2025-02-14 23:00:00,2025-02-16 17:00:00,31,0,
+CMP-2025-0088,Packaging defect,Product Defects,Medium,In Progress,Customer_039,Emma Wilson,2025-01-04 09:00:00,2025-01-06 09:00:00,,,,1,
+CMP-2025-0089,Rude support agent,Customer Service,Medium,Closed,Customer_033,Clara Singh,2025-02-11 12:00:00,2025-02-13 12:00:00,2025-02-13 07:00:00,2025-02-15 02:00:00,43,0,4
+CMP-2025-0090,Credit not applied to account,Refund Requests,Medium,Closed,Customer_036,Emma Wilson,2025-03-27 13:00:00,2025-03-29 13:00:00,2025-03-28 05:00:00,2025-03-30 05:00:00,16,0,5
+CMP-2025-0091,Complaint ignored repeatedly,Customer Service,Low,Closed,Customer_031,David Lee,2025-05-19 18:00:00,2025-05-22 18:00:00,2025-05-19 23:00:00,2025-05-20 19:00:00,5,0,5
+CMP-2025-0092,Unscheduled maintenance impact,Service Disruption,Critical,Closed,Customer_029,Alice Johnson,2025-03-27 08:00:00,2025-03-27 16:00:00,2025-03-27 14:00:00,2025-03-28 11:00:00,6,0,
+CMP-2025-0093,Wrong address delivery,Delivery Delays,Medium,Closed,Customer_026,Alice Johnson,2025-04-16 14:00:00,2025-04-18 14:00:00,2025-04-17 22:00:00,2025-04-20 17:00:00,32,0,5
+CMP-2024-0094,Dashboard not loading,Technical Problems,High,Closed,Customer_019,Bob Martinez,2024-12-24 14:00:00,2024-12-25 14:00:00,2024-12-24 18:00:00,2024-12-26 10:00:00,4,0,
+CMP-2025-0095,Order delayed beyond estimate,Delivery Delays,Critical,Resolved,Customer_003,Clara Singh,2025-02-14 13:00:00,2025-02-14 21:00:00,2025-02-16 08:00:00,,43,1,5
+CMP-2025-0096,Product not matching description,Product Defects,Low,In Progress,Customer_006,Emma Wilson,2025-05-08 18:00:00,2025-05-11 18:00:00,,,,1,
+CMP-2025-0097,Missing accessories in box,Product Defects,Low,Closed,Customer_017,David Lee,2025-05-20 08:00:00,2025-05-23 08:00:00,2025-05-21 21:00:00,2025-05-24 04:00:00,37,0,2
+CMP-2025-0098,Subscription not activating,Account Issues,Critical,Closed,Customer_020,David Lee,2025-02-03 15:00:00,2025-02-03 23:00:00,2025-02-05 01:00:00,2025-02-07 19:00:00,34,1,4
+CMP-2025-0099,Subscription not activating,Account Issues,Medium,Open,Customer_019,,2025-03-12 12:00:00,2025-03-14 12:00:00,,,,1,
+CMP-2025-0100,Double charged on account,Billing Issues,Critical,In Progress,Customer_032,Clara Singh,2025-05-05 13:00:00,2025-05-05 21:00:00,,,,1,
+CMP-2025-0101,Dashboard not loading,Technical Problems,High,Escalated,Customer_009,Alice Johnson,2025-05-15 08:00:00,2025-05-16 08:00:00,,,,1,
+CMP-2025-0102,Refund not processed after 30 days,Refund Requests,Low,Closed,Customer_024,Bob Martinez,2025-02-14 13:00:00,2025-02-17 13:00:00,2025-02-15 06:00:00,2025-02-17 20:00:00,17,0,5
+CMP-2025-0103,Wrong address delivery,Delivery Delays,High,Resolved,Customer_017,David Lee,2025-02-25 09:00:00,2025-02-26 09:00:00,2025-02-27 01:00:00,,40,1,5
+CMP-2025-0104,Rude support agent,Customer Service,Critical,In Progress,Customer_036,Clara Singh,2025-03-12 08:00:00,2025-03-12 16:00:00,,,,1,
+CMP-2025-0105,Partial service degradation,Service Disruption,Medium,Assigned,Customer_017,Emma Wilson,2025-05-13 13:00:00,2025-05-15 13:00:00,,,,1,
+CMP-2025-0106,API returning errors,Technical Problems,Medium,Resolved,Customer_040,Emma Wilson,2025-05-06 11:00:00,2025-05-08 11:00:00,2025-05-07 17:00:00,,30,0,4
+CMP-2025-0107,Chat support unresponsive,Customer Service,Low,Assigned,Customer_003,Alice Johnson,2025-04-06 09:00:00,2025-04-09 09:00:00,,,,1,
+CMP-2025-0108,Product not matching description,Product Defects,Medium,Closed,Customer_024,Emma Wilson,2025-04-30 10:00:00,2025-05-02 10:00:00,2025-05-01 18:00:00,2025-05-03 21:00:00,32,0,5
+CMP-2025-0109,Unexpected fee on statement,Billing Issues,High,Assigned,Customer_014,David Lee,2025-01-30 13:00:00,2025-01-31 13:00:00,,,,1,
+CMP-2025-0110,Email change not working,Account Issues,Medium,Closed,Customer_023,Alice Johnson,2025-02-09 11:00:00,2025-02-11 11:00:00,2025-02-10 17:00:00,2025-02-11 10:00:00,30,0,5
+CMP-2025-0111,Double charged on account,Billing Issues,Low,Open,Customer_022,,2025-04-24 11:00:00,2025-04-27 11:00:00,,,,1,
+CMP-2025-0112,App crashes on startup,Technical Problems,Medium,In Progress,Customer_015,Clara Singh,2025-05-02 08:00:00,2025-05-04 08:00:00,,,,1,
+CMP-2024-0113,Manufacturing defect found,Product Defects,Critical,Closed,Customer_035,Clara Singh,2024-12-29 18:00:00,2024-12-30 02:00:00,2024-12-31 02:00:00,2025-01-02 16:00:00,32,1,5
+CMP-2025-0114,Tax calculation incorrect,Billing Issues,Low,Assigned,Customer_004,Bob Martinez,2025-03-18 16:00:00,2025-03-21 16:00:00,,,,1,
+CMP-2024-0115,Unscheduled maintenance impact,Service Disruption,Medium,Resolved,Customer_024,Emma Wilson,2024-12-28 15:00:00,2024-12-30 15:00:00,2024-12-28 18:00:00,,3,0,5
+CMP-2025-0116,Partial delivery received,Delivery Delays,Medium,Closed,Customer_002,Alice Johnson,2025-03-13 14:00:00,2025-03-15 14:00:00,2025-03-14 19:00:00,2025-03-15 11:00:00,29,0,4
+CMP-2025-0117,Packaging defect,Product Defects,Low,Closed,Customer_018,Emma Wilson,2025-04-29 16:00:00,2025-05-02 16:00:00,2025-05-01 06:00:00,2025-05-02 23:00:00,38,0,4
+CMP-2025-0118,Partial service degradation,Service Disruption,High,Resolved,Customer_036,Bob Martinez,2025-03-26 11:00:00,2025-03-27 11:00:00,2025-03-27 00:00:00,,13,0,3
+CMP-2025-0119,Long hold times on call,Customer Service,Medium,Assigned,Customer_017,Clara Singh,2025-04-01 09:00:00,2025-04-03 09:00:00,,,,1,
+CMP-2025-0120,Intermittent connectivity issue,Service Disruption,Low,Resolved,Customer_007,Clara Singh,2025-04-22 08:00:00,2025-04-25 08:00:00,2025-04-24 03:00:00,,43,0,4
+CMP-2025-0121,Misinformation from agent,Customer Service,High,Assigned,Customer_004,Clara Singh,2025-02-18 13:00:00,2025-02-19 13:00:00,,,,1,
+CMP-2025-0122,Cannot login to portal,Technical Problems,Low,Resolved,Customer_031,Bob Martinez,2025-02-28 16:00:00,2025-03-03 16:00:00,2025-03-01 21:00:00,,29,0,5
+CMP-2025-0123,Double charged on account,Billing Issues,High,Closed,Customer_018,Alice Johnson,2025-02-08 12:00:00,2025-02-09 12:00:00,2025-02-08 18:00:00,2025-02-11 13:00:00,6,0,
+CMP-2025-0124,Escalation not followed up,Customer Service,Low,Resolved,Customer_002,Alice Johnson,2025-04-15 11:00:00,2025-04-18 11:00:00,2025-04-16 08:00:00,,21,0,5
+CMP-2024-0125,Unscheduled maintenance impact,Service Disruption,Critical,Assigned,Customer_010,Bob Martinez,2024-12-13 18:00:00,2024-12-14 02:00:00,,,,1,
+CMP-2025-0126,Credit not applied to account,Refund Requests,High,In Progress,Customer_032,Emma Wilson,2025-03-17 12:00:00,2025-03-18 12:00:00,,,,1,
+CMP-2025-0127,Peak hour disruption,Service Disruption,Medium,Resolved,Customer_008,Clara Singh,2025-05-01 15:00:00,2025-05-03 15:00:00,2025-05-02 06:00:00,,15,0,5
+CMP-2025-0128,Subscription overcharged,Billing Issues,Low,Assigned,Customer_014,Bob Martinez,2025-02-13 13:00:00,2025-02-16 13:00:00,,,,1,
+CMP-2025-0129,Credit not applied to account,Refund Requests,High,Resolved,Customer_012,Bob Martinez,2025-04-16 11:00:00,2025-04-17 11:00:00,2025-04-16 23:00:00,,12,0,
+CMP-2025-0130,Subscription overcharged,Billing Issues,Medium,Resolved,Customer_030,Alice Johnson,2025-04-27 14:00:00,2025-04-29 14:00:00,2025-04-28 17:00:00,,27,0,4
+CMP-2025-0131,Subscription not activating,Account Issues,Low,Resolved,Customer_040,David Lee,2025-03-03 09:00:00,2025-03-06 09:00:00,2025-03-05 17:00:00,,56,0,4
+CMP-2025-0132,Chat support unresponsive,Customer Service,Critical,Resolved,Customer_022,Bob Martinez,2025-01-13 09:00:00,2025-01-13 17:00:00,2025-01-15 03:00:00,,42,1,
+CMP-2025-0133,Account locked unexpectedly,Account Issues,Medium,In Progress,Customer_010,Bob Martinez,2025-01-07 12:00:00,2025-01-09 12:00:00,,,,1,
+CMP-2025-0134,Packaging defect,Product Defects,High,Closed,Customer_005,Bob Martinez,2025-04-06 15:00:00,2025-04-07 15:00:00,2025-04-07 06:00:00,2025-04-09 13:00:00,15,0,4
+CMP-2024-0135,Email change not working,Account Issues,High,Resolved,Customer_021,Bob Martinez,2024-12-18 15:00:00,2024-12-19 15:00:00,2024-12-19 00:00:00,,9,0,4
+CMP-2025-0136,Complete service outage,Service Disruption,Medium,Open,Customer_029,,2025-03-05 12:00:00,2025-03-07 12:00:00,,,,1,
+CMP-2025-0137,Partial service degradation,Service Disruption,High,Closed,Customer_033,David Lee,2025-04-28 16:00:00,2025-04-29 16:00:00,2025-04-28 18:00:00,2025-04-30 10:00:00,2,0,4
+CMP-2024-0138,App crashes on startup,Technical Problems,Medium,Assigned,Customer_031,Emma Wilson,2024-12-16 15:00:00,2024-12-18 15:00:00,,,,1,
+CMP-2025-0139,Subscription not activating,Account Issues,Critical,In Progress,Customer_006,Emma Wilson,2025-01-14 08:00:00,2025-01-14 16:00:00,,,,1,
+CMP-2025-0140,Refund amount incorrect,Refund Requests,Critical,Resolved,Customer_034,Emma Wilson,2025-01-10 13:00:00,2025-01-10 21:00:00,2025-01-12 01:00:00,,36,1,5
+CMP-2024-0141,Subscription overcharged,Billing Issues,High,Closed,Customer_022,Alice Johnson,2024-12-25 16:00:00,2024-12-26 16:00:00,2024-12-26 12:00:00,2024-12-29 07:00:00,20,0,
+CMP-2025-0142,Slow service speeds,Service Disruption,Medium,Resolved,Customer_010,Clara Singh,2025-05-17 18:00:00,2025-05-19 18:00:00,2025-05-18 00:00:00,,6,0,4
+CMP-2025-0143,Subscription not activating,Account Issues,High,Resolved,Customer_034,Alice Johnson,2025-03-19 16:00:00,2025-03-20 16:00:00,2025-03-19 22:00:00,,6,0,4
+CMP-2025-0144,Refund not processed after 30 days,Refund Requests,Low,Resolved,Customer_009,Bob Martinez,2025-02-14 09:00:00,2025-02-17 09:00:00,2025-02-14 14:00:00,,5,0,5
+CMP-2025-0145,Manufacturing defect found,Product Defects,Medium,Closed,Customer_010,Bob Martinez,2025-05-09 10:00:00,2025-05-11 10:00:00,2025-05-12 11:00:00,2025-05-14 18:00:00,73,1,5
+CMP-2025-0146,Lost in transit,Delivery Delays,High,Closed,Customer_029,Bob Martinez,2025-01-31 12:00:00,2025-02-01 12:00:00,2025-01-31 19:00:00,2025-02-02 06:00:00,7,0,4
+CMP-2025-0147,Refund amount incorrect,Refund Requests,Medium,Closed,Customer_019,David Lee,2025-04-15 14:00:00,2025-04-17 14:00:00,2025-04-17 05:00:00,2025-04-18 01:00:00,39,0,2
+CMP-2025-0148,Cashback not credited,Refund Requests,Critical,Escalated,Customer_036,Alice Johnson,2025-04-12 09:00:00,2025-04-12 17:00:00,,,,1,
+CMP-2024-0149,Product not matching description,Product Defects,Medium,Closed,Customer_033,Bob Martinez,2024-12-24 11:00:00,2024-12-26 11:00:00,2024-12-24 13:00:00,2024-12-26 03:00:00,2,0,
+CMP-2024-0150,Unable to update profile,Account Issues,Low,Closed,Customer_006,Clara Singh,2024-12-08 13:00:00,2024-12-11 13:00:00,2024-12-10 08:00:00,2024-12-12 22:00:00,43,0,
+CMP-2025-0151,Tax calculation incorrect,Billing Issues,Medium,Resolved,Customer_031,Bob Martinez,2025-03-31 15:00:00,2025-04-02 15:00:00,2025-03-31 17:00:00,,2,0,5
+CMP-2025-0152,Chat support unresponsive,Customer Service,Low,In Progress,Customer_019,Bob Martinez,2025-01-01 08:00:00,2025-01-04 08:00:00,,,,1,
+CMP-2024-0153,Refund amount incorrect,Refund Requests,Low,Resolved,Customer_032,Emma Wilson,2024-12-05 18:00:00,2024-12-08 18:00:00,2024-12-06 13:00:00,,19,0,1
+CMP-2024-0154,Subscription not activating,Account Issues,Low,Closed,Customer_027,Bob Martinez,2024-12-22 16:00:00,2024-12-25 16:00:00,2024-12-27 03:00:00,2024-12-29 01:00:00,107,1,5
+CMP-2025-0155,Tax calculation incorrect,Billing Issues,Medium,In Progress,Customer_031,Alice Johnson,2025-03-10 13:00:00,2025-03-12 13:00:00,,,,1,
+CMP-2025-0156,Double charged on account,Billing Issues,Medium,Assigned,Customer_005,Clara Singh,2025-05-18 18:00:00,2025-05-20 18:00:00,,,,1,
+CMP-2025-0157,Unauthorized account access,Account Issues,Low,Closed,Customer_023,Emma Wilson,2025-05-14 10:00:00,2025-05-17 10:00:00,2025-05-17 00:00:00,2025-05-19 04:00:00,62,0,
+CMP-2025-0158,Missing accessories in box,Product Defects,Low,Closed,Customer_030,Alice Johnson,2025-01-21 08:00:00,2025-01-24 08:00:00,2025-01-23 01:00:00,2025-01-26 00:00:00,41,0,4
+CMP-2024-0159,Refund rejected unfairly,Refund Requests,Medium,Escalated,Customer_013,Clara Singh,2024-12-13 18:00:00,2024-12-15 18:00:00,,,,1,
+CMP-2025-0160,Peak hour disruption,Service Disruption,High,Escalated,Customer_028,David Lee,2025-03-23 14:00:00,2025-03-24 14:00:00,,,,1,
+CMP-2025-0161,Faulty unit received,Product Defects,Medium,Closed,Customer_032,Clara Singh,2025-02-07 09:00:00,2025-02-09 09:00:00,2025-02-11 01:00:00,2025-02-13 17:00:00,88,1,
+CMP-2025-0162,Return pickup not scheduled,Delivery Delays,Medium,Resolved,Customer_006,Clara Singh,2025-02-14 12:00:00,2025-02-16 12:00:00,2025-02-14 23:00:00,,11,0,4
+CMP-2025-0163,Unexpected fee on statement,Billing Issues,High,Closed,Customer_023,Emma Wilson,2025-02-09 18:00:00,2025-02-10 18:00:00,2025-02-09 21:00:00,2025-02-12 03:00:00,3,0,4
+CMP-2025-0164,Packaging defect,Product Defects,Critical,Assigned,Customer_010,Emma Wilson,2025-03-23 08:00:00,2025-03-23 16:00:00,,,,1,
+CMP-2025-0165,Password reset not working,Technical Problems,High,Resolved,Customer_024,Clara Singh,2025-04-25 08:00:00,2025-04-26 08:00:00,2025-04-25 20:00:00,,12,0,5
+CMP-2025-0166,Packaging defect,Product Defects,Medium,Closed,Customer_026,Clara Singh,2025-02-10 11:00:00,2025-02-12 11:00:00,2025-02-13 00:00:00,2025-02-14 19:00:00,61,1,5
+CMP-2025-0167,Intermittent connectivity issue,Service Disruption,Medium,Closed,Customer_017,David Lee,2025-05-06 12:00:00,2025-05-08 12:00:00,2025-05-07 01:00:00,2025-05-07 20:00:00,13,0,
+CMP-2025-0168,Peak hour disruption,Service Disruption,Medium,Escalated,Customer_029,Alice Johnson,2025-02-20 18:00:00,2025-02-22 18:00:00,,,,1,
+CMP-2025-0169,Intermittent connectivity issue,Service Disruption,Medium,Closed,Customer_019,Clara Singh,2025-05-13 10:00:00,2025-05-15 10:00:00,2025-05-13 18:00:00,2025-05-14 18:00:00,8,0,4
+CMP-2025-0170,Refund rejected unfairly,Refund Requests,Low,Assigned,Customer_036,Emma Wilson,2025-03-30 16:00:00,2025-04-02 16:00:00,,,,1,
+CMP-2025-0171,Unscheduled maintenance impact,Service Disruption,Low,Closed,Customer_026,David Lee,2025-03-16 14:00:00,2025-03-19 14:00:00,2025-03-20 12:00:00,2025-03-22 17:00:00,94,1,
+CMP-2025-0172,Refund amount incorrect,Refund Requests,High,In Progress,Customer_023,Bob Martinez,2025-05-13 17:00:00,2025-05-14 17:00:00,,,,1,
+CMP-2025-0173,Faulty unit received,Product Defects,Medium,In Progress,Customer_004,Alice Johnson,2025-01-09 12:00:00,2025-01-11 12:00:00,,,,1,
+CMP-2025-0174,Account merge issue,Account Issues,Critical,In Progress,Customer_015,Clara Singh,2025-02-11 09:00:00,2025-02-11 17:00:00,,,,1,
+CMP-2024-0175,Lost in transit,Delivery Delays,Low,Resolved,Customer_020,Emma Wilson,2024-12-24 16:00:00,2024-12-27 16:00:00,2024-12-25 12:00:00,,20,0,
+CMP-2024-0176,Account locked unexpectedly,Account Issues,High,Closed,Customer_037,Alice Johnson,2024-12-21 08:00:00,2024-12-22 08:00:00,2024-12-21 17:00:00,2024-12-23 22:00:00,9,0,
+CMP-2025-0177,Escalation not followed up,Customer Service,High,Resolved,Customer_002,David Lee,2025-04-19 12:00:00,2025-04-20 12:00:00,2025-04-19 20:00:00,,8,0,5
+CMP-2025-0178,Partial delivery received,Delivery Delays,Medium,Resolved,Customer_004,Bob Martinez,2025-03-17 15:00:00,2025-03-19 15:00:00,2025-03-18 01:00:00,,10,0,5
+CMP-2025-0179,Account merge issue,Account Issues,Critical,Escalated,Customer_009,Clara Singh,2025-04-23 09:00:00,2025-04-23 17:00:00,,,,1,
+CMP-2024-0180,Partial refund received,Refund Requests,Low,Escalated,Customer_029,Bob Martinez,2024-12-25 08:00:00,2024-12-28 08:00:00,,,,1,
+CMP-2025-0181,Long hold times on call,Customer Service,High,Closed,Customer_027,Bob Martinez,2025-02-22 17:00:00,2025-02-23 17:00:00,2025-02-24 05:00:00,2025-02-26 00:00:00,36,1,4
+CMP-2025-0182,Lost in transit,Delivery Delays,Medium,In Progress,Customer_006,David Lee,2025-03-28 11:00:00,2025-03-30 11:00:00,,,,1,
+CMP-2025-0183,Account merge issue,Account Issues,Low,Resolved,Customer_019,David Lee,2025-05-17 18:00:00,2025-05-20 18:00:00,2025-05-18 08:00:00,,14,0,5
+CMP-2024-0184,Email change not working,Account Issues,High,Resolved,Customer_024,Alice Johnson,2024-12-14 17:00:00,2024-12-15 17:00:00,2024-12-15 03:00:00,,10,0,
+CMP-2025-0185,Cashback not credited,Refund Requests,High,Assigned,Customer_018,Emma Wilson,2025-05-06 09:00:00,2025-05-07 09:00:00,,,,1,
+CMP-2025-0186,Slow service speeds,Service Disruption,Medium,Resolved,Customer_022,Emma Wilson,2025-01-06 11:00:00,2025-01-08 11:00:00,2025-01-06 14:00:00,,3,0,
+CMP-2025-0187,Product not matching description,Product Defects,High,Closed,Customer_031,Emma Wilson,2025-01-08 17:00:00,2025-01-09 17:00:00,2025-01-11 10:00:00,2025-01-12 18:00:00,65,1,
+CMP-2025-0188,Lost in transit,Delivery Delays,Medium,Escalated,Customer_033,Emma Wilson,2025-04-05 17:00:00,2025-04-07 17:00:00,,,,1,
+CMP-2025-0189,Billing cycle error,Billing Issues,Medium,Open,Customer_008,,2025-02-17 18:00:00,2025-02-19 18:00:00,,,,1,
+CMP-2024-0190,Partial refund received,Refund Requests,Medium,Resolved,Customer_038,Emma Wilson,2024-12-14 17:00:00,2024-12-16 17:00:00,2024-12-16 09:00:00,,40,0,4
+CMP-2025-0191,Cannot login to portal,Technical Problems,Low,Resolved,Customer_008,Bob Martinez,2025-03-23 13:00:00,2025-03-26 13:00:00,2025-03-24 16:00:00,,27,0,5
+CMP-2025-0192,Refund amount incorrect,Refund Requests,Critical,Escalated,Customer_004,Bob Martinez,2025-01-23 16:00:00,2025-01-24 00:00:00,,,,1,
+CMP-2025-0193,Credit not applied to account,Refund Requests,Medium,Resolved,Customer_021,Bob Martinez,2025-04-16 13:00:00,2025-04-18 13:00:00,2025-04-18 07:00:00,,42,0,4
+CMP-2025-0194,Refund amount incorrect,Refund Requests,Low,Closed,Customer_016,Clara Singh,2025-02-15 11:00:00,2025-02-18 11:00:00,2025-02-17 00:00:00,2025-02-19 09:00:00,37,0,
+CMP-2025-0195,Cashback not credited,Refund Requests,Medium,Assigned,Customer_023,Emma Wilson,2025-02-09 12:00:00,2025-02-11 12:00:00,,,,1,
+CMP-2025-0196,Long hold times on call,Customer Service,Critical,Escalated,Customer_026,Clara Singh,2025-02-13 08:00:00,2025-02-13 16:00:00,,,,1,
+CMP-2025-0197,Peak hour disruption,Service Disruption,Medium,In Progress,Customer_029,Clara Singh,2025-04-02 11:00:00,2025-04-04 11:00:00,,,,1,
+CMP-2025-0198,Order delayed beyond estimate,Delivery Delays,Critical,In Progress,Customer_018,Bob Martinez,2025-05-07 17:00:00,2025-05-08 01:00:00,,,,1,
+CMP-2025-0199,Tax calculation incorrect,Billing Issues,High,Assigned,Customer_034,Bob Martinez,2025-01-29 08:00:00,2025-01-30 08:00:00,,,,1,
+CMP-2025-0200,Account locked unexpectedly,Account Issues,High,Resolved,Customer_007,Bob Martinez,2025-04-20 10:00:00,2025-04-21 10:00:00,2025-04-21 02:00:00,,16,0,3
+CMP-2025-0201,Return pickup not scheduled,Delivery Delays,Medium,Resolved,Customer_004,Alice Johnson,2025-04-26 11:00:00,2025-04-28 11:00:00,2025-04-26 14:00:00,,3,0,3
+CMP-2025-0202,Product not matching description,Product Defects,Critical,Closed,Customer_003,David Lee,2025-01-17 12:00:00,2025-01-17 20:00:00,2025-01-19 10:00:00,2025-01-21 12:00:00,46,1,
+CMP-2025-0203,Email change not working,Account Issues,Medium,Resolved,Customer_035,Emma Wilson,2025-01-04 16:00:00,2025-01-06 16:00:00,2025-01-05 00:00:00,,8,0,5
+CMP-2025-0204,Wrong address delivery,Delivery Delays,High,Closed,Customer_001,Clara Singh,2025-04-25 18:00:00,2025-04-26 18:00:00,2025-04-28 12:00:00,2025-05-01 09:00:00,66,1,4
+CMP-2025-0205,Unable to update profile,Account Issues,Low,Closed,Customer_007,Bob Martinez,2025-04-02 13:00:00,2025-04-05 13:00:00,2025-04-06 15:00:00,2025-04-07 18:00:00,98,1,4
+CMP-2025-0206,Unauthorized account access,Account Issues,Medium,Closed,Customer_037,Alice Johnson,2025-05-17 13:00:00,2025-05-19 13:00:00,2025-05-19 22:00:00,2025-05-21 15:00:00,57,1,4
+CMP-2025-0207,Lost in transit,Delivery Delays,High,Closed,Customer_019,Clara Singh,2025-01-26 11:00:00,2025-01-27 11:00:00,2025-01-27 02:00:00,2025-01-29 13:00:00,15,0,4
+CMP-2025-0208,Cashback not credited,Refund Requests,High,Resolved,Customer_014,Bob Martinez,2025-05-02 09:00:00,2025-05-03 09:00:00,2025-05-02 21:00:00,,12,0,
+CMP-2025-0209,Intermittent connectivity issue,Service Disruption,Low,Assigned,Customer_036,Emma Wilson,2025-04-26 16:00:00,2025-04-29 16:00:00,,,,1,
+CMP-2025-0210,Subscription not activating,Account Issues,High,Resolved,Customer_029,Alice Johnson,2025-01-22 17:00:00,2025-01-23 17:00:00,2025-01-23 08:00:00,,15,0,4
+CMP-2025-0211,Complaint ignored repeatedly,Customer Service,Medium,Resolved,Customer_004,Emma Wilson,2025-02-17 08:00:00,2025-02-19 08:00:00,2025-02-17 22:00:00,,14,0,2
+CMP-2025-0212,Account locked unexpectedly,Account Issues,High,Escalated,Customer_035,Alice Johnson,2025-03-31 08:00:00,2025-04-01 08:00:00,,,,1,
+CMP-2025-0213,Product not matching description,Product Defects,High,Resolved,Customer_027,Clara Singh,2025-03-25 14:00:00,2025-03-26 14:00:00,2025-03-26 08:00:00,,18,0,
+CMP-2025-0214,Account merge issue,Account Issues,Low,Closed,Customer_035,David Lee,2025-01-02 11:00:00,2025-01-05 11:00:00,2025-01-04 02:00:00,2025-01-05 19:00:00,39,0,4
+CMP-2025-0215,Chat support unresponsive,Customer Service,High,In Progress,Customer_016,David Lee,2025-01-09 12:00:00,2025-01-10 12:00:00,,,,1,
+CMP-2025-0216,Complete service outage,Service Disruption,Low,Open,Customer_027,,2025-01-31 11:00:00,2025-02-03 11:00:00,,,,1,
+CMP-2024-0217,Tax calculation incorrect,Billing Issues,Medium,Resolved,Customer_004,Bob Martinez,2024-12-12 14:00:00,2024-12-14 14:00:00,2024-12-12 18:00:00,,4,0,
+CMP-2025-0218,Lost in transit,Delivery Delays,Low,Closed,Customer_037,Clara Singh,2025-05-03 18:00:00,2025-05-06 18:00:00,2025-05-04 13:00:00,2025-05-06 19:00:00,19,0,4
+CMP-2025-0219,Return pickup not scheduled,Delivery Delays,Low,Resolved,Customer_038,Bob Martinez,2025-03-20 16:00:00,2025-03-23 16:00:00,2025-03-22 17:00:00,,49,0,4
+CMP-2025-0220,Long hold times on call,Customer Service,Medium,In Progress,Customer_020,David Lee,2025-04-17 15:00:00,2025-04-19 15:00:00,,,,1,
+CMP-2025-0221,Cannot login to portal,Technical Problems,Medium,Closed,Customer_010,David Lee,2025-04-23 14:00:00,2025-04-25 14:00:00,2025-04-23 23:00:00,2025-04-25 11:00:00,9,0,
+CMP-2024-0222,API returning errors,Technical Problems,Medium,Closed,Customer_006,David Lee,2024-12-24 16:00:00,2024-12-26 16:00:00,2024-12-25 10:00:00,2024-12-26 22:00:00,18,0,5
+CMP-2025-0223,Intermittent connectivity issue,Service Disruption,Low,Closed,Customer_038,Emma Wilson,2025-04-02 11:00:00,2025-04-05 11:00:00,2025-04-02 13:00:00,2025-04-03 14:00:00,2,0,5
+CMP-2025-0224,Peak hour disruption,Service Disruption,High,Resolved,Customer_031,Bob Martinez,2025-05-04 11:00:00,2025-05-05 11:00:00,2025-05-04 22:00:00,,11,0,4
+CMP-2025-0225,Email change not working,Account Issues,Medium,Closed,Customer_024,Emma Wilson,2025-03-30 09:00:00,2025-04-01 09:00:00,2025-03-31 06:00:00,2025-04-03 04:00:00,21,0,
+CMP-2025-0226,Subscription not activating,Account Issues,Medium,In Progress,Customer_037,Bob Martinez,2025-01-07 08:00:00,2025-01-09 08:00:00,,,,1,
+CMP-2025-0227,Long hold times on call,Customer Service,Medium,Closed,Customer_013,Clara Singh,2025-03-08 17:00:00,2025-03-10 17:00:00,2025-03-10 11:00:00,2025-03-13 11:00:00,42,0,4
+CMP-2025-0228,Partial refund received,Refund Requests,Critical,Assigned,Customer_032,David Lee,2025-03-01 10:00:00,2025-03-01 18:00:00,,,,1,
+CMP-2024-0229,Refund amount incorrect,Refund Requests,Low,Closed,Customer_035,Alice Johnson,2024-12-09 09:00:00,2024-12-12 09:00:00,2024-12-09 10:00:00,2024-12-11 00:00:00,1,0,
+CMP-2025-0230,App crashes on startup,Technical Problems,Low,Resolved,Customer_010,Alice Johnson,2025-04-09 15:00:00,2025-04-12 15:00:00,2025-04-12 05:00:00,,62,0,1
+CMP-2025-0231,Misinformation from agent,Customer Service,Low,Resolved,Customer_034,Clara Singh,2025-02-12 08:00:00,2025-02-15 08:00:00,2025-02-14 16:00:00,,56,0,5
+CMP-2025-0232,Intermittent connectivity issue,Service Disruption,Critical,Resolved,Customer_034,Bob Martinez,2025-01-19 17:00:00,2025-01-20 01:00:00,2025-01-19 20:00:00,,3,0,2
+CMP-2024-0233,Chat support unresponsive,Customer Service,Medium,Closed,Customer_016,Bob Martinez,2024-12-21 18:00:00,2024-12-23 18:00:00,2024-12-21 21:00:00,2024-12-22 14:00:00,3,0,4
+CMP-2025-0234,Refund not processed after 30 days,Refund Requests,Low,Resolved,Customer_001,Bob Martinez,2025-04-07 14:00:00,2025-04-10 14:00:00,2025-04-08 03:00:00,,13,0,5
+CMP-2024-0235,API returning errors,Technical Problems,Low,Closed,Customer_037,David Lee,2024-12-12 09:00:00,2024-12-15 09:00:00,2024-12-12 14:00:00,2024-12-13 13:00:00,5,0,4
+CMP-2025-0236,API returning errors,Technical Problems,Medium,In Progress,Customer_026,Alice Johnson,2025-01-11 17:00:00,2025-01-13 17:00:00,,,,1,
+CMP-2025-0237,Complaint ignored repeatedly,Customer Service,High,Resolved,Customer_035,Clara Singh,2025-01-05 09:00:00,2025-01-06 09:00:00,2025-01-05 11:00:00,,2,0,
+CMP-2025-0238,Two-factor auth failing,Technical Problems,High,Closed,Customer_022,Emma Wilson,2025-05-02 14:00:00,2025-05-03 14:00:00,2025-05-03 11:00:00,2025-05-04 16:00:00,21,0,4
+CMP-2025-0239,App crashes on startup,Technical Problems,Medium,Resolved,Customer_025,David Lee,2025-04-29 18:00:00,2025-05-01 18:00:00,2025-04-30 13:00:00,,19,0,5
+CMP-2025-0240,Peak hour disruption,Service Disruption,Medium,Resolved,Customer_025,Bob Martinez,2025-03-10 13:00:00,2025-03-12 13:00:00,2025-03-13 10:00:00,,69,1,5
+CMP-2025-0241,Partial service degradation,Service Disruption,Low,Resolved,Customer_012,David Lee,2025-04-22 16:00:00,2025-04-25 16:00:00,2025-04-23 04:00:00,,12,0,3
+CMP-2025-0242,Email change not working,Account Issues,High,Closed,Customer_001,Clara Singh,2025-03-10 09:00:00,2025-03-11 09:00:00,2025-03-10 17:00:00,2025-03-12 17:00:00,8,0,5
+CMP-2025-0243,Product not matching description,Product Defects,Low,In Progress,Customer_020,Clara Singh,2025-01-07 09:00:00,2025-01-10 09:00:00,,,,1,
+CMP-2025-0244,Wrong address delivery,Delivery Delays,Medium,Closed,Customer_031,Alice Johnson,2025-02-03 11:00:00,2025-02-05 11:00:00,2025-02-05 03:00:00,2025-02-06 03:00:00,40,0,3
+CMP-2025-0245,Unexpected fee on statement,Billing Issues,Critical,Escalated,Customer_022,Emma Wilson,2025-02-23 15:00:00,2025-02-23 23:00:00,,,,1,
+CMP-2025-0246,Product not matching description,Product Defects,Medium,Closed,Customer_039,Bob Martinez,2025-02-19 10:00:00,2025-02-21 10:00:00,2025-02-20 05:00:00,2025-02-22 16:00:00,19,0,4
+CMP-2024-0247,API returning errors,Technical Problems,Medium,In Progress,Customer_018,David Lee,2024-12-30 17:00:00,2025-01-01 17:00:00,,,,1,
+CMP-2025-0248,Packaging defect,Product Defects,High,Resolved,Customer_036,Alice Johnson,2025-03-29 11:00:00,2025-03-30 11:00:00,2025-03-29 14:00:00,,3,0,5
+CMP-2025-0249,Long hold times on call,Customer Service,High,Assigned,Customer_009,Clara Singh,2025-02-03 18:00:00,2025-02-04 18:00:00,,,,1,
+CMP-2025-0250,Misinformation from agent,Customer Service,High,Resolved,Customer_005,David Lee,2025-04-02 17:00:00,2025-04-03 17:00:00,2025-04-03 07:00:00,,14,0,5
