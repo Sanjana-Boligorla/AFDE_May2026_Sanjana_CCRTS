@@ -12,6 +12,8 @@ const categoryRoutes     = require('./routes/categories');
 const complaintRoutes    = require('./routes/complaints');
 const dashboardRoutes    = require('./routes/dashboard');
 const notificationRoutes = require('./routes/notifications');
+const analyticsRoutes    = require('./routes/analytics');
+const etlRoutes          = require('./routes/etl');
 const { errorHandler, notFound } = require('./middleware/errorHandler');
 
 const app = express();
@@ -53,6 +55,8 @@ app.use('/api/categories',    categoryRoutes);
 app.use('/api/complaints',    complaintRoutes);
 app.use('/api/dashboard',     dashboardRoutes);
 app.use('/api/notifications', notificationRoutes);
+app.use('/api/analytics',    analyticsRoutes);
+app.use('/api/etl',          etlRoutes);
 
 app.get('/api/health', (req, res) => {
   res.json({
