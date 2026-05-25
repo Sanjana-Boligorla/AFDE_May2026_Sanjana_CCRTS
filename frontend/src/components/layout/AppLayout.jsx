@@ -11,6 +11,7 @@ const ROLE_NAV = {
     { label: 'Users',        href: '/users',        icon: 'users' },
     { label: 'Categories',   href: '/categories',   icon: 'tag' },
     { label: 'Reports',      href: '/reports',      icon: 'chart' },
+    { label: 'ETL Pipeline', href: '/etl',          icon: 'etl' },
   ],
   Supervisor: [
     { label: 'Dashboard',    href: '/dashboard',    icon: 'home' },
@@ -53,6 +54,9 @@ const ICONS = {
   ),
   plus: (
     <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+  ),
+  etl: (
+    <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5h18M3 12h18M3 16.5h18M7.5 3l-4.5 4.5M7.5 21l-4.5-4.5M16.5 3l4.5 4.5M16.5 21l4.5-4.5" />
   ),
 }
 

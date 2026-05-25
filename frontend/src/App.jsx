@@ -17,6 +17,7 @@ import CreateComplaint from './pages/complaints/CreateComplaint'
 import UserManagement  from './pages/users/UserManagement'
 import Categories      from './pages/categories/Categories'
 import Reports         from './pages/reports/Reports'
+import EtlPipeline    from './pages/etl/EtlPipeline'
 import Profile         from './pages/profile/Profile'
 import NotFound        from './pages/NotFound'
 
@@ -47,6 +48,7 @@ export default function App() {
             <Route element={<AppLayout />}>
               <Route path="/users"      element={<UserManagement />} />
               <Route path="/categories" element={<Categories />} />
+              <Route path="/etl"        element={<EtlPipeline />} />
             </Route>
           </Route>
 

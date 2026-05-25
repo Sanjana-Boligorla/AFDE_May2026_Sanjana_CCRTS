@@ -269,3 +269,74 @@ All errors return a consistent structure:
 | 409 | Conflict (duplicate entry) |
 | 422 | Validation Error |
 | 500 | Internal Server Error |
+
+---
+
+## Analytics (Phase 2 — ETL-Powered)
+
+> All analytics endpoints require authentication and Admin or Supervisor role.
+
+### GET `/analytics/summary` 🔒 (Admin, Supervisor)
+Monthly summary — totals, SLA compliance, resolution times.
+
+**Response:**
+```json
+{
+  "success": true,
+  "data": {
+    "monthly": [
+      {
+        "report_month": "2025-01",
+        "total_complaints": 45,
+        "resolved_count": 28,
+        "sla_breach_count": 12,
+        "sla_compliance_rate": 73.3,
+        "avg_resolution_hours": 24.5,
+        "avg_satisfaction": 4.1
+      }
+    ],
+    "totals": {
+      "total_complaints": 250,
+      "resolved_count": 160,
+      "sla_breach_count": 58,
+      "avg_sla_compliance": 68,
+      "avg_resolution_hours": "26.5"
+    }
+  }
+}
+```
+
+---
+
+### GET `/analytics/sla` 🔒 (Admin, Supervisor)
+SLA breach report — stats, priority breakdown, paginated breach list.
+
+**Query Params:** `priority`, `month`, `page`, `limit`
+
+**Response:** Returns `stats`, `byPriority`, `breachedComplaints`, `pagination`
+
+---
+
+### GET `/analytics/categories` 🔒 (Admin, Supervisor)
+Category analysis — totals, resolution rates, avg resolution time per category.
+
+**Query Params:** `month`
+
+**Response:** Returns `byCategory` (aggregated) and `trend` (monthly × category)
+
+---
+
+### GET `/analytics/agents` 🔒 (Admin, Supervisor)
+Agent performance — resolution rate, SLA compliance, escalation count, satisfaction.
+
+**Query Params:** `month`
+
+**Response:** Returns `agents` (per-agent summary) and `trend` (monthly)
+
+---
+
+### GET `/analytics/resolution-trends` 🔒 (Admin, Supervisor)
+Resolution time trends — monthly, by priority, by category. Also returns ETL run history.
+
+**Response:** Returns `monthly`, `byPriority`, `byCategory`, `etlRuns`
+
